@@ -36,7 +36,7 @@ defmodule Elixir.Janus.Transport.WS.MixProject do
   defp deps do
     [
       {:jason, "~> 1.2"},
-      {:elixir_janus, github: "software-mansion-labs/elixir-janus"},
+      {:elixir_janus, github: "lorantkurthy/elixir-janus"},
 
       # adapter clients
       {:websockex, "~> 0.4.2", optional: true},
