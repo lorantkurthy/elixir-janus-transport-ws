@@ -86,7 +86,7 @@ defmodule Janus.Transport.WS do
       {:ok, payload, state}
     else
       {:error, reason} ->
-        Logger.warn(
+        Logger.warning(
           "[ #{__MODULE__} ] failed to parse incoming frame with reason: #{inspect(reason)}"
         )
 
